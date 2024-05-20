@@ -34,9 +34,8 @@
 <br>
 
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In calculus, we have a different type of velocity
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The following are the different type of velocity in Calculus:
   </p>
-<br>
 
 
 <div align="center">
@@ -50,6 +49,24 @@
 </div>
 <br>
 
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Jacobian Matrix</i></b>, particularly in robotics and kinematics, the instantaneous velocity is a key concept. The Jacobian matrix relates the velocities of the joints of a robotic manipulator (or a similar mechanical system) to the velocities of the end effector.
+  </p>
+<br>
+
+**Type of Instantaneous Velocity:**
+  - _Angular Velocity_: The angular velocity is from the displacement due to rotation, its differential is angular velocity, then we will write it as theta prime. Angular velocity is particularly relevant for rotary joints and rotating end-effectors.
+  - _Linear Velocity_: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector.
+ <br>
+
+
+
+### Jacobian Matrix of a Spherical Manipulator Video Tutorial 
+
+[![picture-link](youtube-link)
+
+<br>
+
 
 
 ## IV. Differential Equation
@@ -59,11 +76,29 @@
 <br>
 
 
+
+### Differential Equation of a Spherical Manipulator Video Tutorial 
+
+[![picture-link](youtube-link)
+
+<br>
+
+
+
 ## V. Path and Trajectory Planning
 <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </p>
 <br>
+
+
+
+### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
+
+[![picture-link](youtube-link)
+
+<br>
+
 
 
 ## VI. References
