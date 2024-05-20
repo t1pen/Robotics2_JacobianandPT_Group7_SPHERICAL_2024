@@ -33,8 +33,8 @@ Spherical = SerialLink([H0_1 H1_2 H2_3], 'name', 'Spherical Spot Welding')
 % Spherical.plot([0 0 0], 'workspace', [-80 80 -80 80 -10 130])
 % Spherical.teach
 
-ti1 = 0:0.5:7
-ti2 = 0:0.5:5
+ti1 = 0:0.5:3
+ti2 = 0:0.5:7
 
 q0 = [0 0 0];
 q1 = [-45*pi/180 -45*pi/180 0];

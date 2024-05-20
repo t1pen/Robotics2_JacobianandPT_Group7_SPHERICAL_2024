@@ -4,9 +4,9 @@ from roboticstoolbox import DHRobot, RevoluteDH, PrismaticDH
 
 ## Create Spherical Manipulator Model
 # link lengths in cm
-a1 = float(input("a1 = "))
-a2 = float(input("a2 = "))
-a3 = float(input("a3 = "))
+a1 = float(50)
+a2 = float(20)
+a3 = float(15)
 
 #link conversion to meters
 def cm_to_meter(a):
@@ -18,7 +18,7 @@ a2 = cm_to_meter(a2)
 a3 = cm_to_meter(a3)
 
 # limit of variable d1
-d3 = float(input("d3 = "))
+d3 = float(25)
 d3 = cm_to_meter(d3)
 
 #Create links

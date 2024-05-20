@@ -34,7 +34,7 @@ Spherical.plot([0 0 0], 'workspace', [-80 80 -80 80 -10 130])
 % Spherical.teach
 
 ti1 = 0:0.5:10
-ti2 = 0:0.5:5
+ti2 = 0:0.5:2
 
 q0 = [0 0 0];
 q1 = [45*pi/180 -20*pi/180 0];
