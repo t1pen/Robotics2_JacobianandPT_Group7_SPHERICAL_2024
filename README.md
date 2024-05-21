@@ -211,7 +211,8 @@
   </div>
 <br>
 
-This is the Differential Equation of Spherical Manipulator
+<p align="center">
+  This is the Differential Equation of Spherical Manipulator
 <p align="center">
   <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/Images/Differential%20Equation%20of%20Spherical%20Manipulator.png" style="height: 400px;"></p>
   </div>
@@ -251,13 +252,15 @@ This is the Differential Equation of Spherical Manipulator
 <br>
 
 ### Path and Trajectory Planning of a Spherical Manipulator (Forward and Inverse):
-This is the Forward Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  This is the Forward Path and Trajectory Planning of a Spherical Manipulator
 <p align="center">
   <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20For.gif" style="height: 500px;"></p>
   </div>
 <br>
 
-This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
 <p align="center">
   <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20Inv.gif" style="height: 500px;"></p>
   </div>
