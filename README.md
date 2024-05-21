@@ -163,7 +163,7 @@
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next fill in the Jacobian Matrix. remeber that each column represents a single joint. </p>
   <p align="center">
   <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
-  <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The R in the matrix above stands for "rotation matrix." For instance, R01 represents the rotation matrix from frame 0 to frame 1. </p>
+  <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The R in the matrix above stands for "rotation matrix." For instance, $R_{1}^{0}$ represents the rotation matrix from frame 0 to frame 1. </p>
 </div>
 <br>
 
@@ -184,7 +184,7 @@
   </div>
 <br>
 
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then  to solve for R02, we will multiply the $R_{1}^{0}$ to $R_{2}^{1}$.</p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then  to solve for $R_{2}^{0}$, we will multiply the $R_{1}^{0}$ to $R_{2}^{1}$.</p>
 <p align="center">
   <img src="https://github.com/yannaaa23/Testing/blob/38919bc3f81cd9086731aed2925f94f07a7605c6/Robo_finals/441306171_1192158122154661_7958303080294320935_n.png" style="height: 300px;"></p>
   </div>
