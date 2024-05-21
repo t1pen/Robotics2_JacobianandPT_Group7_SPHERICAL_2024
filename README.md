@@ -25,7 +25,8 @@
 <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project delves into the fascinating world of mechanical manipulators, specifically <b><i>spherical manipulators</i></b> which can perform complex movements within a spherical workspace. The objective of this project is to comprehend the relationship between control, motion planning, and the manipulator's fundamental properties. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The project begins with exploring the Jacobian matrix, a fundamental tool for connecting the end-effector's movement to the spherical manipulator's joint rotations. We'll look at how this matrix reflects the spherical nature of the workspace, allowing us to precisely control the manipulator's orientation and position.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The project begins with exploring the Jacobian matrix, a fundamental tool for connecting the end-effector's movement to the spherical manipulator's joint rotations. We'll look at how this matrix reflects the spherical nature of the workspace, allowing us to precisely control the manipulator's orientation and position. Next, we'll venture into the realm of differential equations and how it becomes a robot or a mechanical manipulator. According to Osorio, Carlos (<i>MathWorks, MATLAB</i>, 2017), We'll use Lagrangian mechanics or Newtonian methods to derive the complex equations that control the manipulator's movements. These equations will take into consideration the joint positions, velocities, and accelerations, as well as manipulator parameters such as link masses and inertia. Because of the spherical design and multiple joints of our manipulator, these equations frequently contain non-linear components, creating a distinct challenge when compared to simpler robots.
+
 
   </p>
 <br>
