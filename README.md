@@ -207,7 +207,19 @@
 ## Path Generation Methods:
 <p align="justify">1. <b><i>Joint Space Scheme:</b></i> This method focuses on the joint variables (angles) of the manipulator. It uses functions like <b><i>Cubic Polynomials</b></i>, <b><i>Fifth-Order polynomials</b></i>, or <b><i>Parabolic Blend</b></i> to generate a continuous joint trajectory between start and end configurations. This approach is computationally efficient but may not directly translate to the desired end-effector path in the workspace. </p>
 <p align="justify">2. <b><i>Cartesian Scheme: </b></i> This method focuses on the end-effector's position vectors (X, Y, Z) within the workspace. It generates a path directly in Cartesian space, ensuring a more intuitive understanding of the end-effector's movement. However, it may require additional calculations to translate the path into joint commands for the manipulator. </p>
-  
+<br>
+
+### Path and Trajectory Planning of a Spherical Manipulator (Forward and Inverse):
+This is the Forward Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20For.gif" style="height: 500px;"></p>
+  </div>
+<br>
+
+This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20Inv.gif" style="height: 500px;"></p>
+  </div>
 <br>
 
 ### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
