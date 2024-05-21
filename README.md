@@ -70,14 +70,29 @@
 </div>
 
 <p align="justify"> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>- Linear Velocity</i>: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector. 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>- Linear Velocity</i>: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector. </p> 
     <p align="center">
   <img src="https://github.com/yannaaa23/Testing/blob/c3e27cdc8776a10f276b8510a50b4e64434491c0/Robo_finals/441544819_1155781665423847_2642355278148153689_n.png" style="height: 100px;"></p>
 </div>
  <br>
 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Carl_Jacobi2.jpg/220px-Carl_Jacobi2.jpg">
+
 <p align="justify"> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the German mathematician <b><i>Carl Gustav Jacob Jacobi</i></b>, who first developed it in the nineteenth century. Carl Gustav Jacob Jacobi was a well-known mathematician who made significant contributions to several topics, including elliptic functions, dynamics, and differential equations.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the eminent German mathematician Carl Gustav Jacob Jacobi, who first developed this important concept in the nineteenth century. Jacobi was a towering figure in the field of mathematics during his time, making substantial contributions to a wide array of mathematical disciplines. His work extended far beyond the Jacobian matrix, impacting areas such as elliptic functions, where he developed fundamental theories that are still in use today.
+</p>
+
+<p align="justify"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In addition, Jacobi made significant strides in the realm of dynamics, where his research provided deeper insights into the behavior of physical systems in motion. His pioneering efforts in differential equations were also groundbreaking, offering new methods and solutions that have been instrumental in the advancement of both pure and applied mathematics.
+</p>
+
+<p align="justify">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jacobi's contributions were not limited to theoretical pursuits; he was also known for his work in applied mathematics, where his findings had practical implications for engineering and the physical sciences. His comprehensive approach to mathematical problems and his ability to connect various branches of mathematics demonstrated his profound understanding and innovative thinking.
+</p>
+
+<p align="justify">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overall, Carl Gustav Jacob Jacobi's legacy is a testament to his profound impact on mathematics, with the Jacobian matrix being just one of the many tools and theories that he developed, which continue to influence contemporary mathematical research and applications.
+</p>
 <br>
 <br>
 
