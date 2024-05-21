@@ -21,7 +21,8 @@
 <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Furthermore, the jacobian matrix helps with tasks like obstacle avoidance, path optimization, and trajectory tracking by facilitating motion planning and trajectory development for spherical manipulators. Engineers can use the Jacobian matrix to generate viable and smooth trajectories that will satisfy specific task criteria through the use of numerical techniques and optimization algorithms.
 <br>
-
+<br>
+  
 ## II. Introduction
 <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project delves into the fascinating world of mechanical manipulators, specifically <b><i>spherical manipulators</i></b> which can perform complex movements within a spherical workspace. The objective of this project is to comprehend the relationship between control, motion planning, and the manipulator's fundamental properties. 
@@ -70,14 +71,29 @@
 </div>
 
 <p align="justify"> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>- Linear Velocity</i>: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector. 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>- Linear Velocity</i>: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector. </p> 
     <p align="center">
   <img src="https://github.com/yannaaa23/Testing/blob/c3e27cdc8776a10f276b8510a50b4e64434491c0/Robo_finals/441544819_1155781665423847_2642355278148153689_n.png" style="height: 100px;"></p>
 </div>
  <br>
 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Carl_Jacobi2.jpg/220px-Carl_Jacobi2.jpg">
+
 <p align="justify"> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the German mathematician <b><i>Carl Gustav Jacob Jacobi</i></b>, who first developed it in the nineteenth century. Carl Gustav Jacob Jacobi was a well-known mathematician who made significant contributions to several topics, including elliptic functions, dynamics, and differential equations.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the eminent German mathematician Carl Gustav Jacob Jacobi, who first developed this important concept in the nineteenth century. Jacobi was a towering figure in the field of mathematics during his time, making substantial contributions to a wide array of mathematical disciplines. His work extended far beyond the Jacobian matrix, impacting areas such as elliptic functions, where he developed fundamental theories that are still in use today.
+</p>
+
+<p align="justify"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In addition, Jacobi made significant strides in the realm of dynamics, where his research provided deeper insights into the behavior of physical systems in motion. His pioneering efforts in differential equations were also groundbreaking, offering new methods and solutions that have been instrumental in the advancement of both pure and applied mathematics.
+</p>
+
+<p align="justify">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jacobi's contributions were not limited to theoretical pursuits; he was also known for his work in applied mathematics, where his findings had practical implications for engineering and the physical sciences. His comprehensive approach to mathematical problems and his ability to connect various branches of mathematics demonstrated his profound understanding and innovative thinking.
+</p>
+
+<p align="justify">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overall, Carl Gustav Jacob Jacobi's legacy is a testament to his profound impact on mathematics, with the Jacobian matrix being just one of the many tools and theories that he developed, which continue to influence contemporary mathematical research and applications.
+</p>
 <br>
 <br>
 
@@ -162,13 +178,23 @@
   </div>
 <br>
 
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next is getting the $R_{1}^{0}$.
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next is getting the $R_{1}^{0}$.</p>
 <p align="center">
-  <img src="" style="height: 300px;"></p>
+  <img src="https://github.com/yannaaa23/Testing/blob/a27425c0ea1e8b28ea0ab9b1b3a6bc326e0f3578/Robo_finals/441013670_1174567027056400_5702021752363991286_n.png" style="height: 300px;"></p>
   </div>
 <br>
 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then  to solve for R02, we will multiply the $R_{1}^{0}$ to $R_{2}^{1}$.</p>
+<p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/38919bc3f81cd9086731aed2925f94f07a7605c6/Robo_finals/441306171_1192158122154661_7958303080294320935_n.png" style="height: 300px;"></p>
+  </div>
+<br>
 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We will now put the vector on the Jacobian Matrix.</p>
+<p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/07602a4ebcfe75100aae039175d261cc216a1c33/Robo_finals/436405664_818619336458589_1576103897730433423_n.png" style="height: 200px;"></p>
+  </div>
+<br>
 
 
 ### Jacobian Matrix of a Spherical Manipulator Video Tutorial 
@@ -178,13 +204,24 @@
 <br>
 
 
-
 ## IV. Differential Equation
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion. Moreover, from the Jacobian Matrix that we have derived, we can obtain the differential equation of the Spherical Manipulator.
   </p>
+
+<p align="center"> 
+  This is the Jacobian Matrix of Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/Images/Jacobian%20Matrix%20of%20Spherical%20Manipulator.png" style="height: 400px;"></p>
+  </div>
 <br>
 
+<p align="center">
+  This is the Differential Equation of Spherical Manipulator
+<p align="center">
+    <img src="https://github.com/yannaaa23/Testing/blob/07602a4ebcfe75100aae039175d261cc216a1c33/Robo_finals/436405664_818619336458589_1576103897730433423_n.png" style="height: 200px;"></p>
+  </div>
+<br>
 
 
 ### Differential Equation of a Spherical Manipulator Video Tutorial 
@@ -220,13 +257,15 @@
 <br>
 
 ### Path and Trajectory Planning of a Spherical Manipulator (Forward and Inverse):
-This is the Forward Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  This is the Forward Path and Trajectory Planning of a Spherical Manipulator
 <p align="center">
   <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20For.gif" style="height: 500px;"></p>
   </div>
 <br>
 
-This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
 <p align="center">
   <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20Inv.gif" style="height: 500px;"></p>
   </div>
