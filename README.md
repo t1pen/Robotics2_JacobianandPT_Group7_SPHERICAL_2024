@@ -186,7 +186,7 @@
 
 ## V. Path and Trajectory Planning
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For a spherical manipulator, <b><i>Path and Trajectory planning</i></b> become crucial aspects of ensuring efficient and precise motion within its spherical workspace. 
   </p>
 <br>
 
