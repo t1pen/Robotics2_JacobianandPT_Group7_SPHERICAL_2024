@@ -198,8 +198,7 @@
 
 
 ### Jacobian Matrix of a Spherical Manipulator Video Tutorial 
-[Jacobian Matrix of Spherical Manipulator Thumb](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/assets/157677365/432fe39e-6361-4e30-a8d8-293cf747c4da)]
-(https://youtu.be/TYJMVxX2ZSo)
+[![Jacobian Matrix of Spherical Manipulator Thumb](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/assets/157677365/432fe39e-6361-4e30-a8d8-293cf747c4da)](https://youtu.be/TYJMVxX2ZSo)
 <br>
 <br>
 
