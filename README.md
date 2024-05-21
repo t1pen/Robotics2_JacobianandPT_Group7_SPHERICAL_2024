@@ -9,21 +9,28 @@
   - [IV. Differential Equation](#iv-differential-equation)
   - [V. Path and Trajectory Planning](#v-path-and-trajectory-planning)
   - [VI. References](#vi-references)
-  - [VII. Group Members](#x-group-members)
+  - [VII. Group Members](#vii-group-members)
 <hr> 
 <br>
 
 
 ## I. Abstract
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This final project focuses on the full analysis and implementation of Jacobian matrices for path and trajectory planning in a spherical manipulator. The spherical manipulator, with its three rotational degrees of freedom, presents a unique challenge for kinematic analysis and control. Our study begins with the derivation of the Jacobian matrix, which is critical for understanding the link between joint and end-effector velocities. It is also use to investigate singularities and manipulability, assuring efficient and accurate manipulator control. This core element makes it easier to analyze the manipulator's kinematic behavior and dynamic response. Following that, we concentrate on path planning, which aims to create a viable route for the manipulator's end-effector from a starting point to a destination location in a three-dimensional workspace.  This includes preventing collisions, optimizing the trajectory for efficiency, and adhering to the manipulator's kinematic limitations. Trajectory planning is then handled, and time-parameterized motion profiles are created to assure smooth and continuous traverse along the intended path.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This final project focuses on the full analysis and implementation of Jacobian matrices for path and trajectory planning in a spherical manipulator. The spherical manipulator, with its three rotational degrees of freedom, presents a unique challenge for kinematic analysis and control. Our study begins with the derivation of the Jacobian matrix, which is critical for understanding the link between joint and end-effector velocities. It is also use to investigate singularities and manipulability, assuring efficient and accurate manipulator control. This core element makes it easier to analyze the manipulator's kinematic behavior and dynamic response. Following that, we concentrate on path planning, which aims to create a viable route for the manipulator's end-effector from a starting point to a destination location in a three-dimensional workspace.  This includes preventing collisions, optimizing the trajectory for efficiency, and adhering to the manipulator's kinematic limitations. Trajectory planning is then handled, and time-parameterized motion profiles are created to assure smooth and continuous traverse along the intended path. 
   </p>
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Furthermore, the jacobian matrix helps with tasks like obstacle avoidance, path optimization, and trajectory tracking by facilitating motion planning and trajectory development for spherical manipulators. Engineers can use the Jacobian matrix to generate viable and smooth trajectories that will satisfy specific task criteria through the use of numerical techniques and optimization algorithms.
 <br>
-
 
 ## II. Introduction
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project delves into the fascinating world of mechanical manipulators, specifically <b><i>spherical manipulators</i></b> which can perform complex movements within a spherical workspace. The objective of this project is to comprehend the relationship between control, motion planning, and the manipulator's fundamental properties. 
+
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The project begins with exploring the <b><i>Jacobian Matrix</i></b>, a fundamental tool for connecting the end-effector's movement to the spherical manipulator's joint rotations. We'll look at how this matrix reflects the spherical nature of the workspace, allowing us to precisely control the manipulator's orientation and position. Next, we'll venture into the realm of <b><i>Differential Equations</i></b> and how it becomes a robot or a mechanical manipulator. According to Osorio, Carlos (<i>MathWorks, MATLAB</i>, 2017), We'll use Lagrangian mechanics or Newtonian methods to derive the complex equations that control the manipulator's movements. These equations will take into consideration the joint positions, velocities, and accelerations, as well as manipulator parameters such as link masses and inertia. Because of the spherical design and multiple joints of our manipulator, these equations frequently contain non-linear components, creating a distinct challenge when compared to simpler robots. A critical aspect of the project is understanding <b><i>Singularities</i></b>. These occur when the Jacobian matrix loses its invertibility, essentially taking away a degree-of-freedom from the manipulator. In a spherical manipulator, singularity implies the manipulator loses a degree-of-freedom at a specific configuration, hindering its ability to move in certain directions. We'll explore how careful design and control strategies can prevent the manipulator from reaching these limiting configurations. Finally, we'll delve into <b><i>Path and Trajectory Planning</i></b>. A spherical manipulator's path refers to the sequence of positions its end-effector traces in space, while the trajectory includes both the path and the timing information (velocity and acceleration) associated with that path.  Due to the spherical workspace, planning paths for these manipulators often involves spherical interpolation techniques to ensure smooth and efficient motion within the reachable workspace.
+
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By delving into these areas, this project aims to provide a comprehensive understanding of how the Jacobian matrix, differential equations, singularity, and path and trajectory planning work together to orchestrate the intricate movements of a spherical manipulator. This knowledge is crucial for effectively controlling and utilizing these robots in various applications.
   </p>
 <br>
 
@@ -75,6 +82,14 @@
 <br>
 
 
+## Methods of Obtaining Jacobian Matrix
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. <i>Partial Derivative Method</i>: The Partial Derivative Method entails directly computing the Jacobian matrix by taking the partial derivatives of the position and orientation functions in relation to the joint variables. </p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. <i>Propagation Method</i>: The Propagation Method entails systematically propagating the effects of each joint variable along the robot's kinematic chain to identify their contributions to the end-effector's velocity. </p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. <i>Linear Algebra Method</i>: The Linear Algebra Method derives the Jacobian matrix using linear algebra concepts, which frequently include transformation matrices as well as rotation and translation features. </p> 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.  <i>More</i> </p> 
+<br>
+
+
 ## Overview of the Jacobian Matrix
 <p align="justify"> For a three-dimensional robot, the Jacobian matrix converts joint velocities into end effector velocities using the equation below: </p>
 
@@ -107,6 +122,52 @@
 <br>
 
 
+### Linear Algebra Method
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/f79fb09ffc6610c13e84d98d9b0cf22b5be8b7df/Robo_finals/436423704_834066888540735_6153712287409155515_n.png" style="height: 350px;"></p>
+</div>
+<br>
+
+
+## Jacobian Matrix of a Spherical Manipulator
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Now, let's solve the Jacobian Matrix of a Spherical Manipulator. </p>
+
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/aafb450e6b09e5da8a60690ff225642a931b8edd/Robo_finals/Add%20a%20heading%20(2).jpg" style="height: 400px;"></p>
+</div>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here is the equation with the Jacobian matrix: </p>
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
+  <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Notice that the q’s were replaced with d’s, which represent “displacement” of the prismatic joint </p>
+</div>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next fill in the Jacobian Matrix. remeber that each column represents a single joint. </p>
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
+  <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The R in the matrix above stands for "rotation matrix." For instance, R01 represents the rotation matrix from frame 0 to frame 1. </p>
+</div>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To solve for spherical manipulators, we need to find the rotational matrices for each column. Remeber that any 3x3 matrix that you will multiply to 001 vector, the answer will be the 3rd column of our 3x3 matrix. </p>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $R_{0}^{0}$ means the projection and the reference is 0. So our rotation matrix is an identity matrix. This is the identity matrix of $R_{0}^{0}$: </p>
+<br>
+
+<p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/8959745f357f735ecc274e399b94c2267e68146f/Robo_finals/436335917_774446098165625_1435850216450301068_n%20(1).png" style="height: 300px;"></p>
+  </div>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next is getting the $R_{1}^{0}$.
+<p align="center">
+  <img src="" style="height: 300px;"></p>
+  </div>
+<br>
+
 
 
 
@@ -120,7 +181,7 @@
 
 ## IV. Differential Equation
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion.
   </p>
 <br>
 
@@ -136,19 +197,48 @@
 
 ## V. Path and Trajectory Planning
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For a spherical manipulator, <b><i>Path and Trajectory planning</i></b> are critical components of ensuring efficient and precise movements within its spherical workspace. The following descriptions are the breakdown of these concepts:
+
+<p align="justify">
+  > <b><i>Path Planning:</b></i> Imagine drawing a line in space; that's essentially what path planning does for a spherical manipulator. It determines the sequence of positions the end-effector will traverse within the reachable sphere. This planning considers factors like obstacles, desired waypoints, and workspace limitations.
   </p>
+<p align="justify">
+  > <b><i>Trajectory Planning:</b></i> Path planning defines the "where," but trajectory planning adds the "how." It determines the timing information (velocity and acceleration) for the end-effector along the planned path. This ensures the manipulator moves smoothly and efficiently, considering factors like joint limitations, speed constraints, and desired arrival time. Moreover, the trajectory describes how to follow a path as a function of time (Castro, S., <i>MATLAB</i>, 2019).
+  </p>
+
+## The Planning Process
+<p align="justify">1. <b><i>Task:</b></i> This defines the overall goal, like picking up an object or reaching a specific point. </p>
+<p align="justify">2. <b><i>Task Planning:</b></i> from Point A to Point B </p>
+<p align="justify">3. <b><i>Path Planning:</b></i> This determines the sequence of positions within the spherical workspace for the end-effector to follow. (figure the set of points) </p>
+<p align="justify">4. <b><i>Trajectory Planning:</b></i> This defines the velocity and acceleration profiles for the end-effector along the planned path. </p>
+<p align="justify">5. <b><i>Programming:</b></i> This translates the planned trajectory into control signals for the manipulator's joints. </p>
+<p align="justify">5. <b><i>Final Output:</b></i> The manipulator executes the planned motion. </p>
+
+## Path Generation Methods:
+<p align="justify">1. <b><i>Joint Space Scheme:</b></i> This method focuses on the joint variables (angles) of the manipulator. It uses functions like <b><i>Cubic Polynomials</b></i>, <b><i>Fifth-Order polynomials</b></i>, or <b><i>Parabolic Blend</b></i> to generate a continuous joint trajectory between start and end configurations. This approach is computationally efficient but may not directly translate to the desired end-effector path in the workspace. </p>
+<p align="justify">2. <b><i>Cartesian Scheme: </b></i> This method focuses on the end-effector's position vectors (X, Y, Z) within the workspace. It generates a path directly in Cartesian space, ensuring a more intuitive understanding of the end-effector's movement. However, it may require additional calculations to translate the path into joint commands for the manipulator. </p>
 <br>
 
+### Path and Trajectory Planning of a Spherical Manipulator (Forward and Inverse):
+This is the Forward Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20For.gif" style="height: 500px;"></p>
+  </div>
+<br>
 
+This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20Inv.gif" style="height: 500px;"></p>
+  </div>
+<br>
 
 ### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
-
-[![picture-link](youtube-link)
-
+[![Path and Trajectory Planning Vid](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/928e86977a3166591bddb73449ec7838fb83ca2c/Images/Path%20and%20Trajectory%20of%20Spherical%20Manipulator.png)](https://youtu.be/k2QA0MXXu90)
 <br>
 
-
+### Path and Trajectory Planning (GUI Calculator) of a Spherical Manipulator Video Tutorial
+[![Path and Trajectory Planning Using GUI Vid](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/102ad6986ea0d2cc8e525bab4c5237fc1a80beb3/Images/Path%20and%20Trajectory%20(GUI)%20of%20Spherical%20Manipulator.png)](https://youtu.be/9wl5kE7-EJ8)
+<br>
 
 ## VI. References
   - https://automaticaddison.com/the-ultimate-guide-to-jacobian-matrices-for-robotics/
