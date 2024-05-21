@@ -240,7 +240,8 @@
 <p align="justify">
   > <b><i>Trajectory Planning:</b></i> Path planning defines the "where," but trajectory planning adds the "how." It determines the timing information (velocity and acceleration) for the end-effector along the planned path. This ensures the manipulator moves smoothly and efficiently, considering factors like joint limitations, speed constraints, and desired arrival time. Moreover, the trajectory describes how to follow a path as a function of time (Castro, S., <i>MATLAB</i>, 2019).
   </p>
-
+<br>
+    
 ## The Planning Process
 <p align="justify">1. <b><i>Task:</b></i> This defines the overall goal, like picking up an object or reaching a specific point. </p>
 <p align="justify">2. <b><i>Task Planning:</b></i> from Point A to Point B </p>
@@ -248,6 +249,7 @@
 <p align="justify">4. <b><i>Trajectory Planning:</b></i> This defines the velocity and acceleration profiles for the end-effector along the planned path. </p>
 <p align="justify">5. <b><i>Programming:</b></i> This translates the planned trajectory into control signals for the manipulator's joints. </p>
 <p align="justify">5. <b><i>Final Output:</b></i> The manipulator executes the planned motion. </p>
+<br>
 
 ## Path Generation Methods:
 <p align="justify">1. <b><i>Joint Space Scheme:</b></i> This method focuses on the joint variables (angles) of the manipulator. It uses functions like <b><i>Cubic Polynomials</b></i>, <b><i>Fifth-Order polynomials</b></i>, or <b><i>Parabolic Blend</b></i> to generate a continuous joint trajectory between start and end configurations. This approach is computationally efficient but may not directly translate to the desired end-effector path in the workspace. </p>
