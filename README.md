@@ -140,7 +140,7 @@
 
 ### Linear Algebra Method
   <p align="center">
-  <img src="https://github.com/yannaaa23/Testing/blob/f79fb09ffc6610c13e84d98d9b0cf22b5be8b7df/Robo_finals/436423704_834066888540735_6153712287409155515_n.png" style="height: 350px;"></p>
+  <img src="https://github.com/yannaaa23/Testing/blob/f79fb09ffc6610c13e84d98d9b0cf22b5be8b7df/Robo_finals/436423704_834066888540735_6153712287409155515_n.png" style="height: 300px;"></p>
 </div>
 <br>
 
@@ -190,9 +190,9 @@
   </div>
 <br>
 
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We will now put the vector on the Jacobian Matrix.</p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is the Jacobian Matrix of a Spherical Manipulator.</p>
 <p align="center">
-  <img src="https://github.com/yannaaa23/Testing/blob/07602a4ebcfe75100aae039175d261cc216a1c33/Robo_finals/436405664_818619336458589_1576103897730433423_n.png" style="height: 200px;"></p>
+  <img src="https://github.com/yannaaa23/Testing/blob/b34c3999f3a59b839a08067c406253d128e3aa76/Robo_finals/436363130_1033792958168795_7860095000779189097_n.png" style="height: 200px;"></p>
   </div>
 <br>
 
@@ -209,17 +209,15 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion. Moreover, from the Jacobian Matrix that we have derived, we can obtain the differential equation of the Spherical Manipulator.
   </p>
 
-<p align="center"> 
-  This is the Jacobian Matrix of Spherical Manipulator
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To obtain the differential equation of a Spherical Manipulator, we will multiply the Jacobian matrix to Joint Velocity Vector.</p>
 <p align="center">
-  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/Images/Jacobian%20Matrix%20of%20Spherical%20Manipulator.png" style="height: 400px;"></p>
+  <img src="https://github.com/yannaaa23/Testing/blob/bb045693a39ec57604705f6b399c8e7d15bb51e7/Robo_finals/441088122_822971186419251_1276723161212912211_n.png" style="height: 200px;"></p>
   </div>
 <br>
 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is the Differential Equation of a Spherical manipulator</p>
 <p align="center">
-  This is the Differential Equation of Spherical Manipulator
-<p align="center">
-    <img src="https://github.com/yannaaa23/Testing/blob/07602a4ebcfe75100aae039175d261cc216a1c33/Robo_finals/436405664_818619336458589_1576103897730433423_n.png" style="height: 200px;"></p>
+  <img src="https://github.com/yannaaa23/Testing/blob/ced0d039e2f15f26085546c9eb84ec07424dca4d/Robo_finals/442010576_1128962038417382_9149207397439633798_n.png" style="height: 300px;"></p>
   </div>
 <br>
 
