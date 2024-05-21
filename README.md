@@ -171,7 +171,7 @@
 
 ## IV. Differential Equation
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion.
   </p>
 <br>
 
