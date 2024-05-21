@@ -193,7 +193,7 @@
   > <b><i>Path Planning:</b></i> Imagine drawing a line in space; that's essentially what path planning does for a spherical manipulator. It determines the sequence of positions the end-effector will traverse within the reachable sphere. This planning considers factors like obstacles, desired waypoints, and workspace limitations.
   </p>
 <p align="justify">
-  > <b><i>Trajectory Planning:</b></i> Path planning defines the "where," but trajectory planning adds the "how." It determines the timing information (velocity and acceleration) for the end-effector along the planned path. This ensures the manipulator moves smoothly and efficiently, considering factors like joint limitations, speed constraints, and desired arrival time.
+  > <b><i>Trajectory Planning:</b></i> Path planning defines the "where," but trajectory planning adds the "how." It determines the timing information (velocity and acceleration) for the end-effector along the planned path. This ensures the manipulator moves smoothly and efficiently, considering factors like joint limitations, speed constraints, and desired arrival time. Moreover, the trajectory describes how to follow a path as a function of time (Castro, S., <i>MATLAB</i>, 2019).
   </p>
 
 <br>
