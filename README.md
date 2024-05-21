@@ -54,10 +54,46 @@
   </p>
 <br>
 
+
 **Type of Instantaneous Velocity:**
-  - _Angular Velocity_: The angular velocity is from the displacement due to rotation, its differential is angular velocity, then we will write it as theta prime. Angular velocity is particularly relevant for rotary joints and rotating end-effectors.
-  - _Linear Velocity_: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector.
+<p align="justify"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>- Angular Velocity</i>: The angular velocity is from the displacement due to rotation, its differential is angular velocity, then we will write it as theta prime. Angular velocity is particularly relevant for rotary joints and rotating end-effectors. 
+    <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/967290615783731ff45b7a282223e7c31028e21c/441436226_1195944951572857_5490576830621742157_n.png" style="height: 100px;"></p>
+</div>
+
+<p align="justify"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>- Linear Velocity</i>: The linear velocity is from the linear displacement, its differential is linear velocity , and this is the linear velocities, the xprime yprime zprime and the d prime. Linear velocity is crucial for understanding and controlling the movement of the robot's end-effector. 
+    <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/c3e27cdc8776a10f276b8510a50b4e64434491c0/Robo_finals/441544819_1155781665423847_2642355278148153689_n.png" style="height: 100px;"></p>
+</div>
  <br>
+
+<p align="justify"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the German mathematician Carl Gustav Jacob Jacobi, who first developed it in the nineteenth century. Carl Gustav Jacob Jacobi was a well-known mathematician who made significant contributions to several topics, including elliptic functions, dynamics, and differential equations.
+<br>
+
+
+## Overview of the Jacobian Matrix
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For a three-dimensional robot, the Jacobian matrix converts joint velocities into end effector velocities using the equation below: </p>
+**PICTURE NG FORMULA**
+<br>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The dimension of the Jacobian matrix is composed of rows and columns, the number of rows depends on the number of rows of the end effector velocity vector and the column of the velocity vector is always 6. Then for the column in the jacobian matrix is equal to the number of rows in DH Parametric table. </p>
+**PICTURE**
+<br>
+<br>
+
+
+## Methods of Obtaining Jacobian Matrix
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. <i>Partial Derivative Method</i>: The Partial Derivative Method entails directly computing the Jacobian matrix by taking the partial derivatives of the position and orientation functions in relation to the joint variables. </p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. <i>Propagation Method</i>: The Propagation Method entails systematically propagating the effects of each joint variable along the robot's kinematic chain to identify their contributions to the end-effector's velocity. </p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. <i>Linear Algebra Method</i>: The Linear Algebra Method derives the Jacobian matrix using linear algebra concepts, which frequently include transformation matrices as well as rotation and translation features. </p> 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.  <i>More</i> </p> 
+<br>
+
+
 
 
 
@@ -102,9 +138,8 @@
 
 
 ## VI. References
-<p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </p>
+  - https://automaticaddison.com/the-ultimate-guide-to-jacobian-matrices-for-robotics/
+
 <br>
 
 
@@ -116,6 +151,8 @@
 - Umali, Ariane Mae D.
 
 
-
+Dot sa taas - $\dot x$
+$$\dot \theta$$
+$$\omega x$$
 
 
