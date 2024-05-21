@@ -211,11 +211,10 @@
 <br>
 
 ### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
-
-[![picture-link](youtube-link)
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/928e86977a3166591bddb73449ec7838fb83ca2c/Images/Path%20and%20Trajectory%20of%20Spherical%20Manipulator.png" style="height: 350px;"></p>(https://www.youtube.com/watch?v=k2QA0MXXu90)(youtube-link)
 
 <br>
-
 
 
 ## VI. References
