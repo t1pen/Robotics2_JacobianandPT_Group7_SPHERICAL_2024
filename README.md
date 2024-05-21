@@ -299,6 +299,10 @@
 
 ## VI. References
   - https://automaticaddison.com/the-ultimate-guide-to-jacobian-matrices-for-robotics/
+- https://www.researchgate.net/profile/Mohamed_Mourad_Lafifi/post/how_to_calculate_the_angular_velocity_of_end_effector_of_two_link_robot_arm/attachment/59d6487c79197b80779a326a/AS%3A467097353494530%401488376095328/download/METR4202+-+Robotics+Tutorial+4+%E2%80%93+Week+4_+Solutions.pdf
+- https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/
+- https://www.rosroboticslearning.com/jacobian
+- https://www.youtube.com/watch?v=h2YM0CDzDl4&t=647s
 
 <br>
 
