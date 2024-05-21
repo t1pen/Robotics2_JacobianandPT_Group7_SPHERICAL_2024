@@ -201,8 +201,15 @@
 
 ## IV. Differential Equation
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The differential equation of a mechanical manipulator is a mathematical equation that describes the relationship between the manipulator's joint positions, velocities, and accelerations and the forces and torques acting on them.  These equations describe the complex dynamics of the manipulator's motion. Moreover, from the Jacobian Matrix that we have derived, we can obtain the differential equation of the Spherical Manipulator.
   </p>
+
+This is the Jacobian Matrix of Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/Images/Jacobian%20Matrix%20of%20Spherical%20Manipulator.png" style="height: 400px;"></p>
+  </div>
+<br>
+
 <br>
 
 
