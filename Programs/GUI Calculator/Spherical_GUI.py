@@ -1743,7 +1743,7 @@ path_weld = Button(
     fg= 'black',
     bg= '#51FF00',
     font= ('Metropolis Extra Bold', 10),
-    command= p_t_pick
+    command= p_t_weld
 )
 
 path_weld.place(
