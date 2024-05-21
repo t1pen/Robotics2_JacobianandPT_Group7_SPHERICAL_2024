@@ -228,7 +228,7 @@
 
 
 ### Singularities of a Spherical Manipulator Video Tutorial 
-![name](link)
+[![Singularities of a Spherical Manipulator](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/Images/Singularities%20of%20Spherical%20Manipulator.png)](https://youtu.be/TzwtdPAY8G8?si=PXPP5hhnQi8wAgIj)
 <br>
 
 
