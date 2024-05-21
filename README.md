@@ -23,7 +23,7 @@
 
 ## II. Introduction
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project delves into the fascinating world of mechanical manipulators, specifically <b><i>spherical manipulators</i></b> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project delves into the fascinating world of mechanical manipulators, specifically <b><i>spherical manipulators</i></b> which can perform complex movements within a spherical workspace. The objective of this project is to comprehend the relationship between control, motion planning, and the manipulator's fundamental properties.
   </p>
 <br>
 
