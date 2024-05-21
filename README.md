@@ -154,7 +154,6 @@
 <br>
 
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $R_{0}^{0}$ means the projection and the reference is 0. So our rotation matrix is an identity matrix. This is the identity matrix of $R_{0}^{0}$: </p>
-  <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
 <br>
 
 
