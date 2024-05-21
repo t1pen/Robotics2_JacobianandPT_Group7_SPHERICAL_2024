@@ -72,16 +72,29 @@
 <p align="justify"> 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the German mathematician Carl Gustav Jacob Jacobi, who first developed it in the nineteenth century. Carl Gustav Jacob Jacobi was a well-known mathematician who made significant contributions to several topics, including elliptic functions, dynamics, and differential equations.
 <br>
+<br>
 
 
 ## Overview of the Jacobian Matrix
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For a three-dimensional robot, the Jacobian matrix converts joint velocities into end effector velocities using the equation below: </p>
-**PICTURE NG FORMULA**
+<p align="justify"> For a three-dimensional robot, the Jacobian matrix converts joint velocities into end effector velocities using the equation below: </p>
+
+   - **q prime** or **q with the dot on top** represents the **joint velocities**.
+   - **J** is the **Jacobian matrix**.
+   - The left matrix represents the **end effector's velocities**. 
+   - **$\dot x$** **$\dot y$** and **$\dot z$** signify **linear velocities**, it is how fast the end effector moves in the x, y, and z directions relative to the base frame of a robotic arm.
+   - **$\omega x$** **$\omega y$** and **$\omega z$** are the **angular velocities** of a robotic arm's end effector.
+
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/aa89d9d1ecbd6c443e4a55e4fe92338f96ed0a69/Robo_finals/436365194_1125427155179916_2755642066726289969_n.png" style="height: 200px;"></p>
+</div>
 <br>
 <br>
 
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The dimension of the Jacobian matrix is composed of rows and columns, the number of rows depends on the number of rows of the end effector velocity vector and the column of the velocity vector is always 6. Then for the column in the jacobian matrix is equal to the number of rows in DH Parametric table. </p>
-**PICTURE**
+
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/b7feb726b75d0b2628d83caed946dfd5686e4cb7/Robo_finals/436600182_982208450205345_7391698240201526907_n.png" style="height: 200px;"></p>
+</div>
 <br>
 <br>
 
