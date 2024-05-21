@@ -111,7 +111,19 @@
 <br>
 
 
+## Methods of Obtaining Jacobian Matrix
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. <i>Partial Derivative Method</i>: The Partial Derivative Method entails directly computing the Jacobian matrix by taking the partial derivatives of the position and orientation functions in relation to the joint variables. </p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. <i>Propagation Method</i>: The Propagation Method entails systematically propagating the effects of each joint variable along the robot's kinematic chain to identify their contributions to the end-effector's velocity. </p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. <i>Linear Algebra Method</i>: The Linear Algebra Method derives the Jacobian matrix using linear algebra concepts, which frequently include transformation matrices as well as rotation and translation features. </p> 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.  <i>More</i> </p> 
+<br>
 
+
+### Linear Algebra Method
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/f79fb09ffc6610c13e84d98d9b0cf22b5be8b7df/Robo_finals/436423704_834066888540735_6153712287409155515_n.png" style="height: 350px;"></p>
+</div>
+<br>
 
 
 ## Jacobian Matrix of a Spherical Manipulator
@@ -121,9 +133,31 @@
   <img src="https://github.com/yannaaa23/Testing/blob/aafb450e6b09e5da8a60690ff225642a931b8edd/Robo_finals/Add%20a%20heading%20(2).jpg" style="height: 400px;"></p>
 </div>
 <br>
-<br>
 
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here is the equation with the Jacobian matrix: </p>
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
+  <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Notice that the q’s were replaced with d’s, which represent “displacement” of the prismatic joint </p>
+</div>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next fill in the Jacobian Matrix. remeber that each column represents a single joint. </p>
+  <p align="center">
+  <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
+  <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The R in the matrix above stands for "rotation matrix." For instance, R01 represents the rotation matrix from frame 0 to frame 1. </p>
+</div>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To solve for spherical manipulators, we need to find the rotational matrices for each column. Remeber that any 3x3 matrix that you will multiply to 001 vector, the answer will be the 3rd column of our 3x3 matrix. </p>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To solve for spherical manipulators, we need to find the rotational matrices for each column. Remeber that any 3x3 matrix that you will multiply to 001 vector, the answer will be the 3rd column of our 3x3 matrix. </p>
+<br>
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $R_{0}^{0}$ means the projection and the reference is 0. So our rotation matrix is an identity matrix. This is the identity matrix of $R_{0}^{0}$ </p>
+  <img src="https://github.com/yannaaa23/Testing/blob/8a6ffd8495482cf43b383ddd42389c9679ab0393/Robo_finals/436403894_1124314095440538_1273832578915125467_n%20(1).png" style="height: 200px;"></p>
+<br>
+
 
 
 
