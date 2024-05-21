@@ -254,21 +254,39 @@
 <p align="justify">2. <b><i>Cartesian Scheme: </b></i> This method focuses on the end-effector's position vectors (X, Y, Z) within the workspace. It generates a path directly in Cartesian space, ensuring a more intuitive understanding of the end-effector's movement. However, it may require additional calculations to translate the path into joint commands for the manipulator. </p>
 <br>
 
+
 ### Path and Trajectory Planning of a Spherical Manipulator (Forward and Inverse):
 <p align="center">
   This is the Forward Path and Trajectory Planning of a Spherical Manipulator
 <p align="center">
-  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20For.gif" style="height: 500px;"></p>
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/cda09a550d6d482f4e9d2d5d55a25daba9f11cae/GIF/GUI%20PY%20P%26T%20For.gif" style="height: 500px;"></p>
   </div>
 <br>
 
 <p align="center">
   This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
 <p align="center">
-  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/GIF/GUI%20PY%20P%26T%20Inv.gif" style="height: 500px;"></p>
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/cda09a550d6d482f4e9d2d5d55a25daba9f11cae/GIF/GUI%20PY%20P%26T%20Inv.gif" style="height: 500px;"></p>
   </div>
 <br>
 <br>
+
+<p align="center">
+  This is the Path and Trajectory Planning of a Spherical Manipulator for Pick and Place
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/cda09a550d6d482f4e9d2d5d55a25daba9f11cae/GIF/GUI%20PY%20p%26p.gif" style="height: 500px;"></p>
+  </div>
+<br>
+<br>
+
+<p align="center">
+  This is the Path and Trajectory Planning of a Spherical Manipulator for Welding
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/cda09a550d6d482f4e9d2d5d55a25daba9f11cae/GIF/GUI%20PY%20WELD.gif" style="height: 500px;"></p>
+  </div>
+<br>
+<br>
+
 
 ### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
 [![Path and Trajectory Planning Vid](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/928e86977a3166591bddb73449ec7838fb83ca2c/Images/Path%20and%20Trajectory%20of%20Spherical%20Manipulator.png)](https://youtu.be/k2QA0MXXu90)
@@ -292,10 +310,5 @@
 - Cardenas, Sofia Bianca J.
 - Catapang, Jamil Darrius S.
 - Umali, Ariane Mae D.
-
-
-Dot sa taas - $\dot x$
-$$\dot \theta$$
-$$\omega x$$
 
 
