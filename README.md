@@ -224,9 +224,11 @@ This is the Inverse Path and Trajectory Planning of a Spherical Manipulator
 
 ### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
 [![Path and Trajectory Planning Vid](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/928e86977a3166591bddb73449ec7838fb83ca2c/Images/Path%20and%20Trajectory%20of%20Spherical%20Manipulator.png)](https://youtu.be/k2QA0MXXu90)
-
 <br>
 
+### Path and Trajectory Planning (GUI Calculator) of a Spherical Manipulator Video Tutorial
+[![Path and Trajectory Planning Using GUI Vid](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/102ad6986ea0d2cc8e525bab4c5237fc1a80beb3/Images/Path%20and%20Trajectory%20(GUI)%20of%20Spherical%20Manipulator.png)](https://youtu.be/9wl5kE7-EJ8)
+<br>
 
 ## VI. References
   - https://automaticaddison.com/the-ultimate-guide-to-jacobian-matrices-for-robotics/
