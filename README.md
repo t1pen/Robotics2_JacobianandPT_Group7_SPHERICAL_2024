@@ -204,7 +204,8 @@
 <p align="justify">5. <b><i>Programming:</b></i> This translates the planned trajectory into control signals for the manipulator's joints. </p>
 <p align="justify">5. <b><i>Final Output:</b></i> The manipulator executes the planned motion. </p>
 
-
+## Path Generation Methods:
+<p align="justify">1. <b><i>Joint Space Scheme:</b></i> This method focuses on the joint variables (angles) of the manipulator. It uses functions like <b><i>Cubic Polynomials</b></i>, <b><i>Fifth-Order polynomials</b></i>, or <b><i>Parabolic Blend</b></i> to generate a continuous joint trajectory between start and end configurations. This approach is computationally efficient but may not directly translate to the desired end-effector path in the workspace. </p>
 
 <br>
 
