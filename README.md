@@ -178,18 +178,23 @@
   </div>
 <br>
 
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next is getting the $R_{1}^{0}$.
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next is getting the $R_{1}^{0}$.</p>
 <p align="center">
   <img src="https://github.com/yannaaa23/Testing/blob/a27425c0ea1e8b28ea0ab9b1b3a6bc326e0f3578/Robo_finals/441013670_1174567027056400_5702021752363991286_n.png" style="height: 300px;"></p>
   </div>
 <br>
 
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then  to solve for R02, we will multiply the $R_{1}^{0}$ to $R_{2}^{1}$.
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then  to solve for R02, we will multiply the $R_{1}^{0}$ to $R_{2}^{1}$.</p>
 <p align="center">
-  <img src="https://github.com/yannaaa23/Testing/blob/a27425c0ea1e8b28ea0ab9b1b3a6bc326e0f3578/Robo_finals/441013670_1174567027056400_5702021752363991286_n.png" style="height: 300px;"></p>
+  <img src="https://github.com/yannaaa23/Testing/blob/38919bc3f81cd9086731aed2925f94f07a7605c6/Robo_finals/441306171_1192158122154661_7958303080294320935_n.png" style="height: 300px;"></p>
   </div>
 <br>
 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We will now put the vector on the Jacobian Matrix.</p>
+<p align="center">
+  <img src="" style="height: 300px;"></p>
+  </div>
+<br>
 
 
 ### Jacobian Matrix of a Spherical Manipulator Video Tutorial 
