@@ -226,6 +226,10 @@
 <br>
 
 
+### Singularities of a Spherical Manipulator Video Tutorial 
+![name](link)
+<br>
+
 
 ## V. Path and Trajectory Planning
 <p align="justify"> 
