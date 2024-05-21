@@ -196,9 +196,13 @@
   > <b><i>Trajectory Planning:</b></i> Path planning defines the "where," but trajectory planning adds the "how." It determines the timing information (velocity and acceleration) for the end-effector along the planned path. This ensures the manipulator moves smoothly and efficiently, considering factors like joint limitations, speed constraints, and desired arrival time. Moreover, the trajectory describes how to follow a path as a function of time (Castro, S., <i>MATLAB</i>, 2019).
   </p>
 
+## The Planning Process
+<p align="justify">1. <b><i>Task:</b></i> This defines the overall goal, like picking up an object or reaching a specific point. </p>
+
+
+
+
 <br>
-
-
 
 ### Path and Trajectory Planning of a Spherical Manipulator Video Tutorial 
 
