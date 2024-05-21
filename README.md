@@ -223,7 +223,8 @@
 
 
 ### Differential Equation of a Spherical Manipulator Video Tutorial 
-[![Differential Equation of Spherical Manipulator ](https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/assets/157677365/6b58fdac-b691-4898-b0db-5145fabae556)]
+[![Differential Equation of Spherical Manipulator]
+(https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/assets/157677365/6b58fdac-b691-4898-b0db-5145fabae556)]
 (https://youtu.be/D1S0Ut0wUqM?si=_JG4epeChhPKbfvB)
 
 <br>
