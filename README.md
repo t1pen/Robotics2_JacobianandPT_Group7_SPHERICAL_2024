@@ -70,7 +70,7 @@
  <br>
 
 <p align="justify"> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the German mathematician Carl Gustav Jacob Jacobi, who first developed it in the nineteenth century. Carl Gustav Jacob Jacobi was a well-known mathematician who made significant contributions to several topics, including elliptic functions, dynamics, and differential equations.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is named after the German mathematician <b><i>Carl Gustav Jacob Jacobi</i></b>, who first developed it in the nineteenth century. Carl Gustav Jacob Jacobi was a well-known mathematician who made significant contributions to several topics, including elliptic functions, dynamics, and differential equations.
 <br>
 <br>
 
