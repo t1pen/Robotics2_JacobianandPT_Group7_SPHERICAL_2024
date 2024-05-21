@@ -186,8 +186,15 @@
 
 ## V. Path and Trajectory Planning
 <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For a spherical manipulator, <b><i>Path and Trajectory planning</i></b> become crucial aspects of ensuring efficient and precise motion within its spherical workspace. 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For a spherical manipulator, <b><i>Path and Trajectory planning</i></b> are critical components of ensuring efficient and precise movements within its spherical workspace. The following descriptions are the breakdown of these concepts:
+
+<p align="justify">
+  > <b><i>Path Planning:</b></i> Imagine drawing a line in space; that's essentially what path planning does for a spherical manipulator. It determines the sequence of positions the end-effector will traverse within the reachable sphere. This planning considers factors like obstacles, desired waypoints, and workspace limitations.
   </p>
+<p align="justify">
+  > <b><i>Trajectory Planning:</b></i> Path planning defines the "where," but trajectory planning adds the "how." It determines the timing information (velocity and acceleration) for the end-effector along the planned path. This ensures the manipulator moves smoothly and efficiently, considering factors like joint limitations, speed constraints, and desired arrival time.
+  </p>
+
 <br>
 
 
