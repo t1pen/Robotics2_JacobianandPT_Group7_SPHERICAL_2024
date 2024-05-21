@@ -9,7 +9,7 @@
   - [IV. Differential Equation](#iv-differential-equation)
   - [V. Path and Trajectory Planning](#v-path-and-trajectory-planning)
   - [VI. References](#vi-references)
-  - [VII. Group Members](#x-group-members)
+  - [VII. Group Members](#vii-group-members)
 <hr> 
 <br>
 
@@ -18,8 +18,9 @@
 <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This final project focuses on the full analysis and implementation of Jacobian matrices for path and trajectory planning in a spherical manipulator. The spherical manipulator, with its three rotational degrees of freedom, presents a unique challenge for kinematic analysis and control. Our study begins with the derivation of the Jacobian matrix, which is critical for understanding the link between joint and end-effector velocities. It is also use to investigate singularities and manipulability, assuring efficient and accurate manipulator control. This core element makes it easier to analyze the manipulator's kinematic behavior and dynamic response. Following that, we concentrate on path planning, which aims to create a viable route for the manipulator's end-effector from a starting point to a destination location in a three-dimensional workspace.  This includes preventing collisions, optimizing the trajectory for efficiency, and adhering to the manipulator's kinematic limitations. Trajectory planning is then handled, and time-parameterized motion profiles are created to assure smooth and continuous traverse along the intended path. 
   </p>
+<p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Furthermore, the jacobian matrix helps with tasks like obstacle avoidance, path optimization, and trajectory tracking by facilitating motion planning and trajectory development for spherical manipulators. Engineers can use the Jacobian matrix to generate viable and smooth trajectories that will satisfy specific task criteria through the use of numerical techniques and optimization algorithms.
 <br>
-
 
 ## II. Introduction
 <p align="justify"> 
