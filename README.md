@@ -198,7 +198,11 @@
 
 ## The Planning Process
 <p align="justify">1. <b><i>Task:</b></i> This defines the overall goal, like picking up an object or reaching a specific point. </p>
-
+<p align="justify">2. <b><i>Task Planning:</b></i> from Point A to Point B </p>
+<p align="justify">3. <b><i>Path Planning:</b></i> This determines the sequence of positions within the spherical workspace for the end-effector to follow. (figure the set of points) </p>
+<p align="justify">4. <b><i>Trajectory Planning:</b></i> This defines the velocity and acceleration profiles for the end-effector along the planned path. </p>
+<p align="justify">5. <b><i>Programming:</b></i> This translates the planned trajectory into control signals for the manipulator's joints. </p>
+<p align="justify">5. <b><i>Final Output:</b></i> The manipulator executes the planned motion. </p>
 
 
 
