@@ -210,8 +210,11 @@ This is the Jacobian Matrix of Spherical Manipulator
   </div>
 <br>
 
+This is the Differential Equation of Spherical Manipulator
+<p align="center">
+  <img src="https://github.com/t1pen/Robotics2_JacobianandPT_Group7_SPHERICAL_2024/blob/main/Images/Differential%20Equation%20of%20Spherical%20Manipulator.png" style="height: 400px;"></p>
+  </div>
 <br>
-
 
 
 ### Differential Equation of a Spherical Manipulator Video Tutorial 
